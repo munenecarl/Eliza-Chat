@@ -1,0 +1,30 @@
+/* app.css */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* This file is for your main application CSS */
+
+/* Add a padding-bottom to the message container */
+.message-container {
+	@apply pb-16;
+}
+
+/* Style the form */
+/* app.css */
+
+/* Style the form */
+.form-submit {
+    @apply fixed bottom-0 w-1/2 pb-4 flex justify-center mx-auto;
+}
+
+/* Style the search bar */
+.search-bar {
+    @apply w-full;
+}
+
+/* Style the submit button */
+.submit-button {
+    @apply bg-white border border-black block;
+}
