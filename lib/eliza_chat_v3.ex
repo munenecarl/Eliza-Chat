@@ -6,6 +6,7 @@ defmodule ElizaChatV3 do
   Contexts are also responsible for managing your data, regardless
   if it comes from the database, an external API or others.
   """
+
   def generate_message(message, history) do
     api_key = System.get_env("API_KEY")
     url = "https://generativelanguage.googleapis.com/v1beta3/models/chat-bison-001:generateMessage?key=#{api_key}"
