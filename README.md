@@ -12,4 +12,4 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 #### Disclaimer !!!
  * The project is not yet done, I am yet to truly fine-tune the model to ensure that it exclusively answers mental health questions, this is to be done in the future.
  * I'll deploy the project for better demonstration.
- * This web app is in no means meant to serve as a complete substitute for proffessional help for people with mental health issues.
+ * This web app is not meant to serve as a complete substitute for proffessional help for people with mental health issues.
